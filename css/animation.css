@@ -1,0 +1,353 @@
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+/* start all butoon */
+.btn:hover{
+    -webkit-animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+@-webkit-keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  @keyframes shake-bottom {
+    0%,
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+    10% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: rotate(-4deg);
+              transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: rotate(4deg);
+              transform: rotate(4deg);
+    }
+    80% {
+      -webkit-transform: rotate(-2deg);
+              transform: rotate(-2deg);
+    }
+    90% {
+      -webkit-transform: rotate(2deg);
+              transform: rotate(2deg);
+    }
+  }
+  /*start All boutton */
+  .btn:hover{
+    -webkit-animation: blink-1 0.6s infinite both;
+    animation: blink-1 0.6s infinite both;
+  }
+   @-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  .btn-close:hover {
+    -webkit-animation: blink-1 0.6s infinite both;
+              animation: blink-1 0.6s infinite both;
+  }
+  
+   @-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+/*end All boutton */
+/* end all butoon */
+/* start section id name */
+.Personal{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+/* end section id name */
+/* start abut me */
+.abutme-span {
+    -webkit-animation:  abutme-span 2s steps(2, start) 2s infinite both;
+    animation:  abutme-span 2s steps(2, start) 2s infinite both;
+  }
+   @-webkit-keyframes abutme-span {
+    0% {
+      -webkit-filter: blur(12px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes abutme-span {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  /* end abut me */
+  /* start -abutme-span-text */
+.abutme-span-text{
+    -webkit-animation: blink-1 2s ease-in-out 2 ;
+    animation: blink-1 2s ease-in-out 2 ;
+  }
+  @-webkit-keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  @keyframes blink-1 {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+    /* end -abutme-span-text */
+   /* end abut me */
+   /* .................................................................................................. */
+
+
+/* start nav bar section */
+/* start nav bar big  */
+/*start  barnd */
+
+.essam{
+    font-size: 24px;
+    -webkit-animation: rotate-out-diag-1 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+    animation: rotate-out-diag-1 0.6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+  }
+  @-webkit-keyframes rotate-out-diag-1 {
+    0% {
+      -webkit-transform: rotate3d(1, 1, 0, 360deg);
+              transform: rotate3d(1, 1, 0, 360deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate3d(1, 1, 0, 0deg);
+              transform: rotate3d(1, 1, 0, 0deg);
+      opacity: 0;
+    }
+  }
+  @keyframes rotate-out-diag-1 {
+    0% {
+      -webkit-transform: rotate3d(1, 1, 0, 360deg);
+              transform: rotate3d(1, 1, 0, 360deg);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate3d(1, 1, 0, 0deg);
+              transform: rotate3d(1, 1, 0, 0deg);
+      opacity: 0;
+    }
+  }
+  
+/* end brand */
+  .nav-item a:hover{
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.418);
+  border-radius: 10px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    animation-name: example;
+    animation-duration:3s;
+  animation-timing-function: ease-in-out;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    from {background-color: red;
+    color: white;
+  font-weight: bolder;
+  }
+    to {background-color: yellow;
+    color: green;
+    font-weight: bolder;
+  }
+    to{background: blue;
+    color: aqua;
+    font-weight: bolder;
+  }
+  }
+  /* end nav bar big  */
+  /* end nav bar section */
+}
+.my-offcanvas-img{
+    
+  -webkit-animation: color-change-2x 2s linear alternate both;
+          animation: color-change-2x 2s linear alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}

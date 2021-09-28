@@ -1,0 +1,94 @@
+
+:root{
+  --bg_color : #212529;
+  --heading: #86C232;
+  --side: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: #000000;
+}
+.bg-dark {
+  --bs-bg-opacity: .5;
+}
+
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.my-offcanvas-img{
+  
+  -webkit-animation: color-change-2x 2s linear alternate both;
+	        animation: color-change-2x 2s linear alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+
+.my-offcanvas-img{
+  width:250px;
+  height: 250px;
+}
+.active-certifi-img:active{
+  width: 500px;
+  height: 500px;
+  position: fixed;
+    top: 10%;
+    left: 17%;
+}
+.active-certifi-img{
+  cursor: zoom-in;
+}
+.my-offcanvas-front{
+  background-image: url(../img/front\ end.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-offcanvas-body{
+  padding-left: 8rem; 
+}
+.my-offcanvas-ComputerBasics{
+  background-image: url(../img/computer\ basic.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-offcanvas-Network{
+  background-image: url(../img/Network\ card.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.my-offcanvas-Markitting{
+  background-image: url(../img/digital-marketting.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+.my-offcanvas-Appreciation{
+  background-image: url(../img/apprecation.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+.offcanvas-btn{
+  width: 100px;
+}
+.certifictions-convas-sn{
+  margin-left: 100px;
+}
